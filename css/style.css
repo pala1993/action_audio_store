@@ -13217,6 +13217,11 @@ textarea.form-control {
 
 p,
 .feller ul>li {
+    font-size: 12pt
+}
+
+.details p,
+.card-text {
     font-size: 10pt
 }
 
@@ -14382,7 +14387,7 @@ html .sub-title {
     width: 70%;
     /*100%*/
     height: 100%;
-    background: #ffc107;
+    background: #eb7d25;
     transition: .5s;
     transform-origin: left;
     transform: perspective(2000px) rotateY(-90deg);
@@ -14446,4 +14451,23 @@ html .sub-title {
 
 .feller-vinyl .card .details .center ul li a:hover {
     background: #ff3636;
+}
+
+
+/*Feller - Wrap*/
+
+.text-orange {
+    color: #eb7d25;
+}
+
+.i-accordion .panel-heading,
+.d-accordion .panel-heading,
+.accordion-2a .panel-heading,
+.accordion-2b .panel-heading,
+.accordion-3 .panel-heading {
+    cursor: pointer;
+}
+
+.d-accordion .panel-heading.collapsed .fa-chevron-up:before {
+    content: '\f078';
 }
